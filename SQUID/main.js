@@ -1,5 +1,5 @@
 let PressedButtons = {button1: false, button2: false, button3: false};
-var audio = new Audio('sounds/call.m4a');
+var audio = new Audio('sounds/call.mp3');
 function Check()
 {
 	if (PressedButtons.button1 && PressedButtons.button2 && PressedButtons.button3)
