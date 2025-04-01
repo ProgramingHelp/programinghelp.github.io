@@ -14,7 +14,7 @@ img{
 button {
  display: inline-block;
  border-radius: 36px;
- background-color: #F5008B;
+ background-color: rgb(210, 210, 210);
  border: none;
  color: #FFFFFF;
  text-align: center;
@@ -34,7 +34,7 @@ button span {
 }
 
 button span:after {
- content: '»';
+ content: 'Â»';
  position: absolute;
  opacity: 0;
  top: 0;
