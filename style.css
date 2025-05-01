@@ -1,0 +1,140 @@
+body{
+	font-family: sans-serif;
+}
+
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+	color: #363636;
+	font-size: 1rem;
+}
+
+a:hover{
+	color: green;
+}
+
+header{
+	position: relative;
+	padding: 0 2rem;
+}
+
+.content{
+	width: 100%;
+	height: 60px;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+.content .links{
+	display: flex;
+	gap: 2rem;
+}
+
+.logo{
+	width: 13rem;
+	height: 5rem;
+	position: relative;
+	top: 0rem;
+}
+
+.nav-bar{
+	border-bottom-style: solid;
+	border-image: linear-gradient(90deg,rgba(56, 209, 0, 1) 0%, rgba(56, 255, 139, 1) 50%, rgba(6, 171, 0, 1) 100%) 30 stretch;
+	position:absolute;
+	left:0;
+	right:0;
+	display: flex;
+}
+
+.h1_1{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	right: 48rem;
+}
+
+.games_or_programs{
+	margin: auto;
+	align-content: center;
+	position: relative;
+	width: 60%;
+	top: 7rem;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	padding: 5px;
+	left: 0;
+	right: 0;
+	border-top-style: solid;
+	border-image: linear-gradient(90deg,rgba(56, 209, 0, 1) 0%, rgba(56, 255, 139, 1) 50%, rgba(6, 171, 0, 1) 100%) 30 stretch;
+}
+
+.social_links{
+	position: relative;
+	display: flex;
+	gap: 2rem;
+}
+
+.social_links img{
+	width: 10%;
+}
+
+.social_links_div{
+	margin: auto;
+	width: 60%;
+}
+
+.social_links_text {
+  font-weight: normal;
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+
+span{
+	font-weight: bold;
+}
+
+.main_img{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+main{
+	position: absolute;
+	top: 6.5rem;
+	left: 0;
+	right: 0;
+}
+.start{
+	height: 13rem;
+	display: block;
+	text-align: center;
+}
+
+.cards{
+	width: 25%;
+	height: 14rem;
+	padding: 8px;
+	border: black solid;
+	border-radius: 8px;
+	border-color: rgba(56, 209, 0, 1);
+   
+
+}
+
+.cards_wrapper{
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
