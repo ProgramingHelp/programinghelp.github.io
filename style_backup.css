@@ -1,13 +1,5 @@
-html{
-	height: 100%;
-}
 body{
 	font-family: sans-serif;
-	min-height:100%;
-	margin: 0px;
-	padding: 0px;
-	display: table;
-	width: 100%;
 }
 
 li{
@@ -25,6 +17,7 @@ a:hover{
 }
 
 header{
+	position: relative;
 	padding: 0 2rem;
 }
 
@@ -52,38 +45,44 @@ header{
 }
 
 .nav-bar{
-	padding-top: 8px;
 	border-bottom-style: solid;
 	border-image: linear-gradient(90deg,rgba(56, 209, 0, 1) 0%, rgba(56, 255, 139, 1) 50%, rgba(6, 171, 0, 1) 100%) 30 stretch;
+	position:absolute;
+	left:0;
+	right:0;
 	display: flex;
 }
 
 .h1_1{
+	position: absolute;
 	text-align: center;
+	top: 50%;
+	right: 48rem;
 }
 
 .games_or_programs{
 	margin: auto;
 	align-content: center;
+	position: relative;
 	width: 60%;
-	padding-top: 17px;
-	padding-left: 12px;
+	top: 7rem;
 }
 
 footer{
-	height: 80px;
+	position: absolute;
+	margin-top: auto;
+	bottom: 0;
+	padding: 5px;
+	left: 0;
+	right: 0;
 	border-top-style: solid;
 	border-image: linear-gradient(90deg,rgba(56, 209, 0, 1) 0%, rgba(56, 255, 139, 1) 50%, rgba(6, 171, 0, 1) 100%) 30 stretch;
-	margin-top: 10px;	
-	display: table-row;
 }
 
 .social_links{
 	position: relative;
 	display: flex;
 	gap: 2rem;
-	margin: auto;
-	width: 60%;
 }
 
 .social_links img{
@@ -91,10 +90,8 @@ footer{
 }
 
 .social_links_div{
-	margin-top: 10px;
-	padding-top: 20px;
-	border-top-style: solid;
-	border-image: linear-gradient(90deg,rgba(56, 209, 0, 1) 0%, rgba(56, 255, 139, 1) 50%, rgba(6, 171, 0, 1) 100%) 30 stretch;
+	margin: auto;
+	width: 60%;
 }
 
 .social_links_text {
@@ -115,7 +112,10 @@ span{
 }
 
 main{
-	height: 1%;
+	position: absolute;
+	top: 6.5rem;
+	left: 0;
+	right: 0;
 }
 .start{
 	height: 13rem;
