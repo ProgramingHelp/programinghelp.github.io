@@ -81,26 +81,36 @@ footer{
 .social_links{
 	position: relative;
 	display: flex;
-	gap: 2rem;
-	margin: auto;
-	width: 60%;
+	gap: 17%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-left: 0px
 }
 
 .social_links img{
-	width: 10%;
+	height: 25px;
 }
 
 .social_links_div{
 	margin-top: 10px;
-	padding-top: 20px;
 	border-top-style: solid;
 	border-image: linear-gradient(90deg,rgba(56, 209, 0, 1) 0%, rgba(56, 255, 139, 1) 50%, rgba(6, 171, 0, 1) 100%) 30 stretch;
+}
+
+.social_links_centered {
+	margin: auto;
+	width: 60%;
+}
+
+.social_links_single_link {	
+  width: 110px;
 }
 
 .social_links_text {
   font-weight: normal;
   position: relative;
-  top: -10px;
+  top: -7px;
   left: 10px;
 }
 
@@ -138,4 +148,10 @@ main{
 	display: flex;
 	justify-content: center;
 	gap: 2rem;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
