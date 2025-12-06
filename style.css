@@ -1,4 +1,4 @@
-html{
+﻿html{
 	height: 100%;
 }
 body{
@@ -121,7 +121,7 @@ footer{
 }
 
 span{
-	font-weight: bold;
+	/* font-weight: bold;*/
 }
 
 .main_img{
@@ -191,6 +191,25 @@ main{
 	font-size: 2rem;
 	font-weight: bold;
 }
+.justified {
+	display:flex;
+	justify-content: space-between;
+
+}
+.card_title .date {
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.button_link {
+	background: none;
+	border: none;
+	color: var(--white-color);
+}
+
+.button_link:hover {
+	color: var(--official-color);
+}
 
 .site_title {
 	margin-top: 1rem;
@@ -233,6 +252,10 @@ main{
 	border: none;
 	top: 35px;
 	color: var(--white-color);
+}
+
+#themes:hover{
+	color: var(--official-color);
 }
 
 #themes svg:last-child{
